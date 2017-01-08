@@ -104,7 +104,7 @@ function startGulp(name, opts) {
     if (name !== 'lib') {
       browserifyCommand = buildBinPath + 'browserify --require ./index.js:' + fullname + ' --external bitcore-lib-komodo -o ' + fullname + '.js';
     } else {
-      browserifyCommand = buildBinPath + 'browserify --require ./index.js:bitcore-lib-komodo -o bitcore-lib-zcash.js';
+      browserifyCommand = buildBinPath + 'browserify --require ./index.js:bitcore-lib-komodo -o bitcore-lib-komodo.js';
     }
 
     gulp.task('browser:uncompressed', shell.task([
