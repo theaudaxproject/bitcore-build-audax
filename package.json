@@ -1,14 +1,14 @@
 {
-  "name": "bitcore-build-zcash",
+  "name": "bitcore-build-komodo",
   "version": "0.5.4",
-  "description": "A helper for common tasks to build bitcore-zcash modules'",
+  "description": "A helper for common tasks to build bitcore-komodo modules'",
   "main": "index.js",
   "scripts": {
     "test": "gulp test"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:zcashblockchain/bitcore-build-zcash"
+    "url": "git+ssh://git@github.com:supernetorg/bitcore-build-komodo"
   },
   "keywords": [
     "bitcore"
@@ -33,9 +33,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zcashblockchain/bitcore-build-zcash/issues"
+    "url": "https://github.com/supernetorg/bitcore-build-komodo/issues"
   },
-  "homepage": "https://github.com/str4d/bitcore-build-zcash",
+  "homepage": "https://github.com/str4d/bitcore-build-komodo",
   "dependencies": {
     "brfs": "^1.2.0",
     "browserify": "~13.1.0",
