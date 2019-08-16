@@ -1,14 +1,14 @@
 {
-  "name": "bitcore-build-komodo",
+  "name": "bitcore-build-audax",
   "version": "0.5.4",
-  "description": "A helper for common tasks to build bitcore-komodo modules'",
+  "description": "A helper for common tasks to build bitcore-audax modules'",
   "main": "index.js",
   "scripts": {
     "test": "gulp test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://git@github.com/DeckerSU/bitcore-build-komodo"
+    "url": "git+https://git@github.com/theaudaxproject/bitcore-build-audax"
   },
   "keywords": [
     "bitcore"
@@ -33,9 +33,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/supernetorg/bitcore-build-komodo/issues"
+    "url": "https://github.com/theaudaxproject/bitcore-build-audax/issues"
   },
-  "homepage": "https://github.com/str4d/bitcore-build-komodo",
+  "homepage": "https://github.com/theaudaxproject/bitcore-build-audax",
   "dependencies": {
     "brfs": "^1.2.0",
     "browserify": "~13.1.0",

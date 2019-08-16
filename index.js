@@ -58,7 +58,7 @@ function startGulp(name, opts) {
   var tests = ['test/**/*.js'];
   var alljs = files.concat(tests);
 
-  var buildPath = './node_modules/bitcore-build-komodo/';
+  var buildPath = './node_modules/bitcore-build-audax/';
   var buildModulesPath = buildPath + 'node_modules/';
   var buildBinPath = buildPath + 'node_modules/.bin/';
 
@@ -102,9 +102,9 @@ function startGulp(name, opts) {
     var browserifyCommand;
 
     if (name !== 'lib') {
-      browserifyCommand = buildBinPath + 'browserify --require ./index.js:' + fullname + ' --external bitcore-lib-komodo -o ' + fullname + '.js';
+      browserifyCommand = buildBinPath + 'browserify --require ./index.js:' + fullname + ' --external bitcore-lib-audax -o ' + fullname + '.js';
     } else {
-      browserifyCommand = buildBinPath + 'browserify --require ./index.js:bitcore-lib-komodo -o bitcore-lib-komodo.js';
+      browserifyCommand = buildBinPath + 'browserify --require ./index.js:bitcore-lib-audax -o bitcore-lib-audax.js';
     }
 
     gulp.task('browser:uncompressed', shell.task([
